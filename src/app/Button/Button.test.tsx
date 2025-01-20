@@ -3,7 +3,7 @@ import { expect, test } from "vitest";
 
 import Button from "./Button";
 
-test("Basic page test", () => {
+test("Basic button test", () => {
   render(<Button label="Foo" />);
   expect(screen.getByText("Foo")).toBeDefined();
 });
